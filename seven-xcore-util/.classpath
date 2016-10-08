@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/aspectjrt-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/aspectjweaver-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/common-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/druid-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/jackson-core-asl-1.9.9.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/jackson-mapper-asl-1.9.9.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/jcl-over-slf4j-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/logback-classic-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/logback-core-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/mybatis-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/mybatis-spring-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/sigar-1.6.5.132.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-aop-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-aspects-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-beans-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-context-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-context-support-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-core-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-expression-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-jdbc-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-orm-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-oxm-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-tx-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-web-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-webmvc-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-ws-core-2.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-ws-support-2.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/spring-xml-2.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/seven-xcore/libs/velocity-1.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.utility"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
